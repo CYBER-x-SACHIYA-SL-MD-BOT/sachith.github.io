@@ -1,5 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-  font-family: Arial;
-  background: #f4f4f4;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
   text-align: center;
+  padding: 20px;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.bio {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.whatsapp { background: #25D366; }
+.youtube  { background: #FF0000; }
+.tiktok   { background: #000000; }
+.facebook { background: #1877F2; }
+.github   { background: #333333; }
+
+footer {
+  margin-top: 25px;
+  font-size: 12px;
+  opacity: 0.7;
 }
